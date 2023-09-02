@@ -1,0 +1,144 @@
+#title{
+    background-color: #ff4c69;
+    color: white;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar{
+    padding-bottom: 4rem;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family:  'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+.iphone-img{
+   width: 60%;
+   transform: rotate(25deg);
+   position: absolute;
+}
+.positioning{
+    position: relative;
+}
+#features{
+    text-align: center;
+    padding: 15% 10%;
+    background-color: white;
+    position: relative;
+    
+}
+.features-content{
+    width: 60%;
+    margin: auto;
+    color: #8f8f8f;
+}
+.features-content-3{
+    width: 70%;
+    margin: auto;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 3% 2%;
+}
+.features-icon{
+    color: #ef8172;
+}
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    background-color: #ff4c69 ;
+    text-align: center;
+    
+    color: white;
+}
+
+.carousel-item{
+    padding: 7% 10%;
+}
+
+h2{
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.testimonials-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ff4c69 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 5% 10%;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #ff4c69 ;
+    text-align: center;
+    padding: 7% 10%;
+}
+.cta-heading{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#footer{
+    text-align: center;
+}
+.footer-icon{
+    padding: 2% 0.5%;
+}
+
+@media (max-width:1028px) {
+    .iphone-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
